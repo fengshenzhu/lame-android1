@@ -24,7 +24,8 @@ LOCAL_PATH := $(call my-dir)
 		./libmp3lame/util.c \
 		./libmp3lame/vbrquantize.c \
 		./libmp3lame/VbrTag.c \
-		./libmp3lame/version.c
+		./libmp3lame/version.c \
+		./libmp3lame/jni.c
 		
 		LOCAL_LDLIBS := -llog
 		
